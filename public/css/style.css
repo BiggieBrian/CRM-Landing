@@ -33,4 +33,33 @@ header {
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 10px;
+  text-align: center;
+}
+.featuresContainer {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.featureNode {
+  background-color: #eeeeee;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 20px;
+  width: 45%;
+  box-shadow: 3px 3px 10px rgb(221, 221, 221);
+}
+@media (width <= 64rem /* 1024px */) {
+  .featureNode {
+    width: 100%;
+  }
+}
+.featureNode h1 {
+  font-family: "Bodoni Moda";
+  font-weight: bold;
+  font-size: large;
 }
