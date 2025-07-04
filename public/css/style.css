@@ -27,6 +27,15 @@ header {
   justify-content: center;
   gap: 3rem;
 }
+
+#newsLetter {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
 .button {
   background-color: black;
   color: white;
@@ -62,4 +71,42 @@ header {
   font-family: "Bodoni Moda";
   font-weight: bold;
   font-size: large;
+}
+.faqHolder {
+  width: 100%;
+  padding: 2rem 0;
+}
+.FAQ {
+  width: 90%;
+  margin: 5rem auto;
+}
+.faqNode {
+  border-radius: 20px;
+  border: 1px solid black;
+  margin: 1.5rem;
+  background-color: #eeeeee;
+}
+.questionsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.faqHeadNode {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.faqHeadNode h1 {
+  font-weight: bold;
+  font-size: large;
+}
+.faqBody {
+  padding: 1rem;
+  border-top: 1px solid black;
+}
+
+.icon {
+  font-weight: bolder;
+  cursor: pointer;
 }
